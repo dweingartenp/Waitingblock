@@ -14,7 +14,13 @@ python3 -m pip install django-phonenumber-field
 python3 -m pip install phonenumbers
 python3 -m pip install --upgrade django-crispy-forms
 ```
-Update settings.py as included below
+Create a project for a fresh **settings.py** file
+```
+django-admin startproject freshsettings
+```
+Cut the **settings.py** file and move to **mysite** directory, remove **freshsettings** directory.
+
+Update **settings.py** as included below
 ```
 # Application definition
 
