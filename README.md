@@ -3,17 +3,12 @@
 
 For development environment, recommend install per [Django Girls Tutorial](https://tutorial.djangogirls.org/en/django_installation/) into the **Waitingblock-master** directory
 
-For some virtual enviroments, python3 will need to be called with pip
+Install the required dependencies for this project:
+
 ```
-python3 -m pip install django
+python3 -m pip install -r requirements.txt
 ```
-We will also need to install [django-phonenumber-field](https://github.com/stefanfoulis/django-phonenumber-field), [django-tables2](https://github.com/jieter/django-tables2), [phonenumbers](https://github.com/daviddrysdale/python-phonenumbers), [crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
-```
-python3 -m pip install django-tables2
-python3 -m pip install django-phonenumber-field
-python3 -m pip install phonenumbers
-python3 -m pip install --upgrade django-crispy-forms
-```
+
 Create a project for a fresh **settings.py** file
 ```
 django-admin startproject freshsettings
