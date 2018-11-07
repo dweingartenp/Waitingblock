@@ -132,3 +132,7 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 ```
+We can set up our local server from **Waitingblock-master** directory
+```
+python manage.py runserver
+```
