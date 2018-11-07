@@ -127,6 +127,13 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 ```
+
+Build the database by running all available migrations:
+
+```
+python3 manage.py migrate
+```
+
 We can set up our local server from **Waitingblock-master** directory
 ```
 python manage.py runserver
