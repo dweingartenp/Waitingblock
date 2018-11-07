@@ -7,6 +7,13 @@ For some virtual enviroments, python3 will need to be called with pip
 ```
 python3 -m pip install django
 ```
+We will also need to install [django-phonenumber-field](https://github.com/stefanfoulis/django-phonenumber-field), [django-tables2](https://github.com/jieter/django-tables2), [phonenumbers](https://github.com/daviddrysdale/python-phonenumbers), [crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms)
+```
+python3 -m pip install django-tables2
+python3 -m pip install django-phonenumber-field
+python3 -m pip install phonenumbers
+python3 -m pip install --upgrade django-crispy-forms
+```
 Update settings.py as included below
 ```
 # Application definition
