@@ -19,3 +19,9 @@ We can set up our local server from the **Waitingblock** directory
 ```
 python manage.py runserver
 ```
+
+If you'd like to use this in production, please make sure to set the `SECRET_KEY` environment variable, like so:
+
+```
+SECRET_KEY=<a_secret_key> python3 manage.py runserver
+```
