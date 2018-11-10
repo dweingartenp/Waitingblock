@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     'accounts',
 ]
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -122,6 +124,8 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'America/Chicago'
+
+PHONENUMBER_DEFAULT_REGION = 'US'
 
 USE_I18N = True
 
