@@ -1,4 +1,4 @@
-# Waitingblock          ![alt text](https://github.com/Waitingblock/Waitingblock/blob/master/waitingblock.svg)
+# Waitingblock for Django Web Framework          ![alt text](https://github.com/Waitingblock/Waitingblock/blob/master/waitingblock.svg)
 ## A Basic Django Waitinglist App built using [django_tables2](https://github.com/jieter/django-tables2), [Bootstrap4](https://getbootstrap.com/)
 
 ## Screenshots
