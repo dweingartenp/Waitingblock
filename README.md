@@ -2,11 +2,7 @@
 ## A Basic Django Waitinglist App built using [django_tables2](https://github.com/jieter/django-tables2), [Bootstrap4](https://getbootstrap.com/)
 
 ### Screenshots
-
-## Administration Screen
 ![alt text](https://github.com/Waitingblock/Waitingblock/blob/master/screenshots/admin.PNG)
-
-## Waitinglist Screen
 ![alt text](https://github.com/Waitingblock/Waitingblock/blob/master/screenshots/list.PNG)
 
 ### Setup Enviroment
