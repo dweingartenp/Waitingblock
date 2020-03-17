@@ -9,20 +9,32 @@ from django.urls import reverse
 #from django.utils.timesince import timesince
 from django.utils.timezone import utc
 from phonenumber_field.modelfields import PhoneNumberField
+
+#from django.contrib.auth.models import AbstractUser
+
 #from django_tables2 import MultiTableMixin
 #from django.forms import ModelForm
 
 
 class Restaurant(models.Model):
-    restaurant_name = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+    Restaurant_name = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     contact = PhoneNumberField(blank=True)
+    slug = models.SlugField()
+    location = models.CharField(max_length=30)
+    city = models.CharField(max_length=30)
+    #    features = models.ManyToManyField() # dinner, launch, nightlife,
+    #    timing = models.ManyToManyField() # sunday, monday, tuesday,
+    delivery = models.BooleanField(default=False)
 
-BOOL_CHOICES = ((True, 'Waiting'), (False,'Seated'))
+
+#    image = models.ImageField()
+
+BOOL_CHOICES = ((True, 'Waiting'), (False, 'Seated'))
+
 
 class Customer(models.Model):
-#    name = models.CharField(max_length=30)
     name = models.CharField(primary_key=True, max_length=30)
-    unique_id = models.UUIDField(default=uuid.uuid4, editable=False)
+#    unique_id = models.UUIDField(default=uuid.uuid4, editable=False)
     partysize = models.IntegerField()
     arrival_time = models.DateTimeField(auto_now_add=True, blank=True)
     contact = PhoneNumberField(blank=True)

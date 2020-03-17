@@ -23,7 +23,7 @@ $ source myenv/bin/activate
 ```
 Install the required dependencies for developing this project:
 ```
-$ python3 -m pip install -r requirements-dev.txt
+$ python3 -m pip install -r requirements.txt
 ```
 ### Prepare database
 ```
@@ -34,6 +34,10 @@ $ python manage.py migrate --run-syncdb
 ### Start development server
 ```
 $ python3 manage.py runserver
+```
+### Create Superuser
+```
+$ python manage.py createsuperuser
 ```
 ### Production
 If you'd like to use this in production, please make sure to set the `SECRET_KEY` environment variable, like so:

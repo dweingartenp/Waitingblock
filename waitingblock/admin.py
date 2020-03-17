@@ -1,9 +1,5 @@
 from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
+from .models import Restaurant
 
-# Register your models here.
-
-from .models import Customer
-
-admin.site.register(Customer)
-
-
+admin.site.register(Restaurant)
