@@ -1,5 +1,5 @@
 # Waitingblock for Django Web Framework
-## Waitinglist App built using [django_tables2](https://github.com/jieter/django-tables2), [Bootstrap4](https://getbootstrap.com/)
+## Waitinglist App built using [Django](https://github.com/django/django) and [Bootstrap4](https://getbootstrap.com/)
 
 ### Screenshots - Add Customers
 ![alt text](https://github.com/Waitingblock/Waitingblock/blob/master/screenshots/admin.PNG)
